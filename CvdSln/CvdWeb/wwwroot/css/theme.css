@@ -1002,7 +1002,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #171717;
+  background-color: #38618C;
   border-color: #000;
 }
 .navbar-inverse .navbar-brand {
@@ -1021,13 +1021,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ff3417;
+  color: #F9827F;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ff3417;
+  color: #F9827F;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -1054,7 +1054,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #ff3417;
+  color: #F9827F;
 }
 @media (max-width: 991px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -1068,13 +1068,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ff3417;
+    color: #F9827F;
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ff3417;
+    color: #F9827F;
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -1088,14 +1088,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #8b8b8b;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #ff3417;
+  color: #F9827F;
 }
 .navbar-inverse .btn-link {
   color: #8b8b8b;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-  color: #ff3417;
+  color: #F9827F;
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
@@ -1797,10 +1797,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 body {
   font-family: 'Titillium Web', sans-serif;
   background-repeat: repeat-x;
-  background-image: -webkit-linear-gradient(140deg, #ff5b17, #d91b00, #ff1721);
-  background-image: -o-linear-gradient(140deg, #ff5b17, #d91b00, #ff1721);
-  background-image: linear-gradient(140deg, #ff5b17, #d91b00, #ff1721);
-  background-color: #ff3417;
+  background-image: -webkit-linear-gradient(140deg, #35A7FF, #35A7FF, #35A7FF);
+  background-image: -o-linear-gradient(140deg, #35A7FF, #35A7FF, #35A7FF);
+  background-image: linear-gradient(140deg, #35A7FF, #35A7FF, #35A7FF);
+  background-color: #35A7FF;
   padding-top: 247px;
 }
 a,
@@ -1845,15 +1845,15 @@ a:focus {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ff3417;
-  border-bottom: 2px solid #ff3417;
+  color: #F9827F;
+  border-bottom: 2px solid #F9827F;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ff3417;
-  border-bottom: 2px solid #ff3417;
+  color: #F9827F;
+  border-bottom: 2px solid #F9827F;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -1872,15 +1872,15 @@ a:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ff3417;
-  border-bottom: 2px solid #ff3417;
+  color: #F9827F;
+  border-bottom: 2px solid #F9827F;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ff3417;
-  border-bottom: 2px solid #ff3417;
+  color: #F9827F;
+  border-bottom: 2px solid #F9827F;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -1896,7 +1896,7 @@ a:focus {
 }
 .navbar-toggle {
   border: none;
-  background-color: #ff3417;
+  background-color: #F9827F;
 }
 .navbar li > a {
   font-size: 14px;
@@ -1914,7 +1914,7 @@ a:focus {
   top: 87px;
   width: 100%;
   height: 110px;
-  background-color: #232323;
+  background-color: #F9827F;
 }
 @media (min-width: 480px) {
   .global-info {
@@ -2039,7 +2039,7 @@ a:focus {
   font-weight: 600;
   display: inline-block;
   padding: 0 20px;
-  color: #ff3417;
+  color: #F9827F;
   background-color: #fff;
 }
 @media (min-width: 992px) {
@@ -2053,7 +2053,7 @@ a:focus {
   left: -4px;
   display: inline-block;
   content: '_';
-  color: #ff3417;
+  color: #F9827F;
   font-weight: 200;
 }
 .card-container {
@@ -2084,7 +2084,7 @@ a:focus {
   line-height: 1.3;
   position: relative;
   text-align: left;
-  color: #ff3417;
+  color: #F9827F;
 }
 @media (min-width: 992px) {
   .side-note {
@@ -2101,7 +2101,7 @@ a:focus {
   display: none;
   content: '';
   transform: translateY(-50%);
-  background-color: #ff3417;
+  background-color: #F9827F;
 }
 @media (min-width: 992px) {
   .side-note:before,
@@ -2201,7 +2201,7 @@ a:focus {
 }
 .resume-card .skill .progress-bar {
   box-shadow: inset 0 1px 2px #ffefb0;
-  background-color: #ff3417;
+  background-color: #F9827F;
 }
 .resume-card .list li {
   line-height: 1.8;
@@ -2293,7 +2293,7 @@ footer {
   .side-note {
     font-size: 14px;
     padding: 0 0 0 0;
-    color: #fff;
+    color: #F9827F;
   }
   .resume-container .category-title h2 {
     margin: 0;
@@ -2335,4 +2335,9 @@ footer {
 /*yordan*/
 p.indent { 
     text-indent: 30px;
+}
+
+body
+{
+    background-color: #fafafa;
 }
