@@ -106,7 +106,7 @@
                             <h3 class="title">I’m Diana, nice to meet you.</h3>
                             <p class="indent">Manager, consulting department with experience of successfully coordinating the activities of various departments concerned with the production, pricing, sales, and distribution of products and services. Comfortable working with people of all levels and having an excellent commercial approach to solving problems and developing business processes. Having proven people management skills, with the ability to manage performance and motivate staff on an individual and team level.</p>
                             <a target="_blank" href="https://drive.google.com/a/dyordanova.com/file/d/0B58jhazu9YiAOV9hVzU1TWhLYTQ/view?usp=sharing">Link-CV</a>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </article>
@@ -188,14 +188,14 @@
                             <h3 class="title">Managing successful teams, motivation,leadership<small>Yavor Yankulov, PhD</small></h3>
                         </div>
                     </div>
-                        <div class="card-container">
-                            <span class="col-md-3 col-md-offset-1 side-note">March - July 2017</span>
-                            <div class="col-md-6 resume-card">
-                                <h3 class="title">Program U.T.R.E Management<small>Transformacia.bg</small></h3>
-                            </div>
-                         </div>
+                    <div class="card-container">
+                        <span class="col-md-3 col-md-offset-1 side-note">March - July 2017</span>
+                        <div class="col-md-6 resume-card">
+                            <h3 class="title">Program U.T.R.E Management<small>Transformacia.bg</small></h3>
+                        </div>
+                    </div>
                 </div>
-</article>
+            </article>
         </section>
         <section id="skills-tools" class="resume-section">
             <article class="container">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                   <div class="card-container">
+                    <div class="card-container">
                         <span class="col-md-4 col-md-offset-1 side-note">Toolset</span>
                         <div class="col-md-6 resume-card">
                             <h3 class="title">Software<small></small></h3>
@@ -270,7 +270,7 @@
                                 <div class="col-md-5">
                                     <ul class="list-unstyled">
                                         <li>3CX VoIP softphone</li>
-                                        <li>Geocon PlanExpert</li>                  
+                                        <li>Geocon PlanExpert</li>
                                     </ul>
                                 </div>
                             </div>
@@ -328,9 +328,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-3">
-                                    <ul class="list-unstyled">
-                              
-                                    </ul>
+                                    <ul class="list-unstyled"></ul>
                                 </div>
                             </div>
                         </div>
@@ -350,6 +348,73 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Load main js -->
     <script src="js/main.min.js"></script>
-    test depl
+    <style type='text/css'>
+        .embeddedServiceHelpButton .helpButton .uiButton {
+            background-color: #005290;
+            font-family: "Salesforce Sans", sans-serif;
+        }
+
+            .embeddedServiceHelpButton .helpButton .uiButton:focus {
+                outline: 1px solid #005290;
+            }
+
+        @@font-face {
+            font-family: 'Salesforce Sans';
+            src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff') format('woff'), url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf') format('truetype');
+        }
+    </style>
+
+    <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+    <script type='text/javascript'>
+        var initESW = function (gslbBaseURL) {
+            embedded_svc.settings.displayHelpButton = true; //Or false
+            embedded_svc.settings.language = 'bg'; //For example, enter 'en' or 'en-US'
+
+            embedded_svc.settings.defaultMinimizedText = 'Chat with Diana'; //(Defaults to Chat with an Expert)
+            embedded_svc.settings.disabledMinimizedText = 'Diana is Offline'; //(Defaults to Agent Offline)
+
+            //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+            embedded_svc.settings.storageDomain = 'dyordanova.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+            // Settings for Live Agent
+            //embedded_svc.settings.directToButtonRouting = function(prechatFormData) {
+            // Dynamically changes the button ID based on what the visitor enters in the pre-chat form.
+            // Returns a valid button ID.
+            //};
+            //embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
+            //embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
+            //embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+
+            embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+            embedded_svc.settings.entryFeature = 'LiveAgent';
+
+            embedded_svc.init(
+                'https://brave-raccoon-x0lr0k-dev-ed.my.salesforce.com',
+                'https://shumanova-developer-edition.eu16.force.com/codero',
+                gslbBaseURL,
+                '00D1t000000pIxX',
+                'CoderGroup',
+                {
+                    baseLiveAgentContentURL: 'https://c.la1-c1-fra.salesforceliveagent.com/content',
+                    deploymentId: '5721t000000k9ry',
+                    buttonId: '5731t000000H3ch',
+                    baseLiveAgentURL: 'https://d.la1-c1-fra.salesforceliveagent.com/chat',
+                    eswLiveAgentDevName: 'CoderGroup',
+                    isOfflineSupportEnabled: true
+                }
+            );
+        };
+
+        if (!window.embedded_svc) {
+            var s = document.createElement('script');
+            s.setAttribute('src', 'https://brave-raccoon-x0lr0k-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+            s.onload = function () {
+                initESW(null);
+            };
+            document.body.appendChild(s);
+        } else {
+            initESW('https://service.force.com');
+        }
+    </script>
 </body>
 </html>
