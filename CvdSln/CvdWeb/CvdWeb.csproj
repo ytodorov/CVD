@@ -3,10 +3,24 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="wwwroot\bot1.html" />
+    <Content Remove="wwwroot\bot2.html" />
+    <Content Remove="wwwroot\bot3.html" />
+    <Content Remove="wwwroot\bot4.html" />
+    <Content Remove="wwwroot\bot5.html" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\bot5.html" />
+    <None Include="wwwroot\bot4.html" />
+    <None Include="wwwroot\bot3.html" />
+    <None Include="wwwroot\bot2.html" />
+    <None Include="wwwroot\bot1.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Pages\ChatBot.cshtml">
