@@ -1,8 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="wwwroot\bot1 - Copy.html" />
     <Content Remove="wwwroot\bot1.html" />
     <Content Remove="wwwroot\bot2.html" />
     <Content Remove="wwwroot\bot3.html" />
@@ -16,6 +17,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="wwwroot\bot1 - Copy.html" />
     <None Include="wwwroot\bot5.html" />
     <None Include="wwwroot\bot4.html" />
     <None Include="wwwroot\bot3.html" />
