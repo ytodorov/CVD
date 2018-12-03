@@ -36,7 +36,18 @@
             //embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
             //embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
             //embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
-
+			
+			<a id="liveagent_button_online_5731t000000H3u6" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5731t000000H3u6')">
+			<!-- Online Chat Content -->
+			</a>
+			<div id="liveagent_button_offline_5731t000000H3u6" style="display: none;"><!-- Offline Chat Content --></div>
+			
+			type="text/javascript">
+			if (!window._laq) { window._laq = []; }
+			window._laq.push(function()
+			{liveagent.showWhenOnline('5731t000000H3u6', document.getElementById('liveagent_button_online_5731t000000H3u6'));
+				liveagent.showWhenOffline('5731t000000H3u6', document.getElementById('liveagent_button_offline_5731t000000H3u6'));
+			});
             embedded_svc.settings.enabledFeatures = ['LiveAgent'];
             embedded_svc.settings.entryFeature = 'LiveAgent';
 
